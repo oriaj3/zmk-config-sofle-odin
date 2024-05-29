@@ -110,7 +110,7 @@
 &kp ESCAPE  &kp F1            &kp F2           &kp F3          &kp F4            &kp F5                                  &kp F6     &kp F7    &kp F8     &kp F9     &kp F10  &kp F11
 &trans      &kp PIPE          &kp BACKSLASH    &kp TILDE       &kp CARET         &kp PERCENT                             &kp PG_UP  &kp UP    &kp PG_DN  &trans     &kp N0   &kp F12
 &trans      &kp SINGLE_QUOTE  &kp EXCLAMATION  &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS                    &kp LEFT   &kp DOWN  &kp RIGHT  &kp RIGHT  &kp DEL  &kp BSPC
-&trans      &trans            &TSK_user        &TSK02          &TSK01            &kp LG(ESCAPE)        &to 3     &to 4   &kp HOME   &kp INS   &kp END    &trans     &trans   &trans
+&trans      &trans            &TSK_user        &TSK02          &TSK01            &kp LG(SPACE)         &to 3     &to 4   &kp HOME   &kp INS   &kp END    &trans     &trans   &trans
                               &trans           &trans          &trans            &trans                &trans    &trans  &trans     &trans    &trans     &trans
             >;
 
