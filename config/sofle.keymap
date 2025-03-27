@@ -73,21 +73,21 @@
         TSK01: TSK01 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp N1 &kp N3 &kp DOT &kp LS(U) &kp N &kp I &kp C &kp O &kp R &kp N &kp I &kp O &kp AT &kp N1 &kp N9>;
+            bindings = <&kp P &kp A &kp S &kp S &kp N1>;
             label = "TSK01";
         };
 
         TSK02: TSK02 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp N1 &kp N3 &kp DOT &kp LS(U) &kp N &kp I &kp C &kp O &kp R &kp N &kp I &kp O &kp FSLH &kp N1 &kp N9>;
+            bindings = <&kp P &kp A &kp S &kp S &kp N2>;
             label = "TSK02";
         };
 
         TSK_user: TSK_user {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp J &kp A &kp I &kp R &kp O &kp DOT &kp R &kp A &kp M &kp I &kp R &kp E &kp Z>;
+            bindings = <&kp U &kp S &kp E &kp R &kp N1>;
             label = "TSK_USER";
         };
     };
