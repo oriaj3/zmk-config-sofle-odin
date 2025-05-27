@@ -90,6 +90,13 @@
             bindings = <&kp J &kp A &kp I &kp R &kp O &kp DOT &kp R &kp A &kp M &kp I &kp R &kp E &kp Z>;
             label = "TSK_USER";
         };
+
+        TSK03: TSK03 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp N1 &kp N3 &kp DOT &kp LS(G) &kp A &kp T &kp O &kp DQT &kp N1 &kp N9>;
+            label = "TSK03";
+        };
     };
 
     keymap {
@@ -154,7 +161,7 @@
 &kp ESCAPE  &kp F1            &kp F2         &kp F3          &kp F4            &kp F5                                  &kp F6  &kp F7          &kp F8        &kp F9         &kp F10  &kp F11
 &trans      &kp PIPE          &kp BACKSLASH  &kp TILDE       &kp CARET         &kp PERCENT                             &trans  &kp PAGE_UP     &kp UP_ARROW  &kp PAGE_DOWN  &kp N0   &kp F12
 &trans      &kp RA(QUESTION)  &kp RA(EXCL)   &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS                    &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT      &kp DEL  &kp BSPC
-&trans      &trans            &TSK_user      &TSK02          &TSK01            &kp LG(SPACE)         &to 3     &to 4   &trans  &kp HOME        &kp INS       &kp END        &trans   &trans
+&trans      &TSK03            &TSK_user      &TSK02          &TSK01            &kp LG(SPACE)         &to 3     &to 4   &trans  &kp HOME        &kp INS       &kp END        &trans   &trans
                               &trans         &trans          &trans            &trans                &trans    &trans  &trans  &trans          &trans        &trans
             >;
 
