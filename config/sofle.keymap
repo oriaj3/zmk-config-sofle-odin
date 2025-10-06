@@ -99,6 +99,15 @@
         };
     };
 
+    behaviors {
+        td_n_ene: td_n_ene {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD_N_ENE";
+            #binding-cells = <0>;
+            bindings = <&kp N>, <&kp RA(N)>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
